@@ -1,3 +1,5 @@
+//Metadata generation for static routing
+
 export const metadata = {
     title: "About Me",
 }

@@ -1,3 +1,5 @@
+//This will not be rendered
+
 const LineChart = () => {
     return (  
         <h1>Line Chart</h1>

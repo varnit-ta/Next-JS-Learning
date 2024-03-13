@@ -1,4 +1,6 @@
 //Metadata generation for dynamix routing
+//Chnages page title according to the product id
+
 import { Metadata } from "next";
 
 type Props = {
