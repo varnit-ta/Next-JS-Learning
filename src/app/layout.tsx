@@ -4,7 +4,7 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: {
-    absolute: "", //Absolute title for the page
+    absolute: "", //Absolute title for the page, template will be ignored
     default: "Next JS Learning", //Default title for pages that dont have title
     template: "%s | Next JS Learning" //Template for pages that have title, %s gives a suffix
   },
