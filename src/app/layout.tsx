@@ -1,6 +1,6 @@
 //Root layout example
 import { Metadata } from "next"
-
+import './global.css'
 
 export const metadata: Metadata = {
   title: {
@@ -19,13 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header style={{backgroundColor: "lightblue"}}>
+        <header style={{backgroundColor: "lightblue", height: 50, padding: 10}}>
           <p>Header</p>
         </header>
 
         {children}
 
-        <footer style={{backgroundColor: "lightgreen"}}>
+        <footer style={{backgroundColor: "lightgreen", height: 50, padding: 10}}>
           <p>Footer</p>
         </footer>
       </body>
